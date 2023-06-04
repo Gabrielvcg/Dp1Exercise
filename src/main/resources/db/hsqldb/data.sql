@@ -63,3 +63,6 @@ INSERT INTO visits(id,pet_id,visit_date,description) VALUES (2, 8, '2013-01-02',
 INSERT INTO visits(id,pet_id,visit_date,description) VALUES (3, 8, '2013-01-03', 'neutered');
 INSERT INTO visits(id,pet_id,visit_date,description) VALUES (4, 7, '2013-01-04', 'spayed');
 
+INSERT INTO achievement(id,name,threshold,description,badge_image) VALUES (1,'Gamer',10.0,'if you play <THRESHOLD> games or more, we consider that you are a true gamer', 'https://bit.ly/certifiedGamer');
+INSERT INTO achievement(id,name,threshold,description,badge_image) VALUES (2,'Winner',20.0,'if you win <THRESHOLD> games or more, is that you are a winner.', 'https://bit.ly/proGamer');
+INSERT INTO achievement(id,name,threshold,description,badge_image) VALUES (3,'Dingosa',30.0,'if you lose <THRESHOLD> games in a row or more, is that you are Dingoso.', 'https://bit.ly/proGamer');
